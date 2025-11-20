@@ -1,0 +1,18 @@
+def main():
+    
+   # Your Code Here
+   
+    for i in range(10,100):
+       if(i%2 ==0):
+           t= i//10
+           o= i%10
+           n= t+o
+           if(n ==6):
+               print(i)
+       
+   
+       
+    
+   
+if __name__ == "__main__":
+    main()
