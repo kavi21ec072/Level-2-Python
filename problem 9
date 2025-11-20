@@ -1,0 +1,16 @@
+def main():
+    
+   # Your Code Here
+    s=0
+    for i in range(10,100):
+           o= i%10
+           if(o==5):
+               s=s+i
+    print(s)
+       
+   
+       
+    
+   
+if __name__ == "__main__":
+    main()
