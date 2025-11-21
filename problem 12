@@ -1,0 +1,15 @@
+def main():
+    x = int(input("Enter Number: "))
+   # Your Code Here
+    s=0
+    
+    while x >0:
+        last = x%10
+        s += last
+        x//=10
+    y=s
+        
+    print(y)
+
+if __name__ == "__main__":
+    main()
