@@ -1,0 +1,12 @@
+def main():
+    x = int(input("Enter Number: "))
+   # Your Code Here
+    c=0
+    
+    while x >0:
+        x//=10
+        c+=1
+    print(c)
+
+if __name__ == "__main__":
+    main()
