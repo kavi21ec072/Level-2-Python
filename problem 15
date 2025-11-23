@@ -1,0 +1,11 @@
+def main():
+    x = int(input("Enter Number: "))
+   # Your Code Here
+    last=x%10
+    if( last %2 ==0):
+        y=x
+    else:
+        y=x-1
+    print(f"Result = {y}")
+if __name__ == "__main__":
+    main()
