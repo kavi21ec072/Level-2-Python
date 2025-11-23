@@ -1,0 +1,7 @@
+def main():
+    primes = [2,3,5,7]
+    y= len(primes)
+    print(f"Result = {y}")
+    
+if __name__ == "__main__":
+    main()
