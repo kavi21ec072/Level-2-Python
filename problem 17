@@ -1,0 +1,32 @@
+def main():
+    x = int(input("Enter Number: "))
+   # Your Code Here
+    n =x
+    flag=0
+    if x<=1:
+        flag=1
+    else:
+        for i in range(2, x):
+            if(x%i == 0):
+                flag=1
+                break
+    s=0
+    while n >0:
+        d = n%10
+        s=s+d
+        n //=10
+        
+               
+    if(flag ==0 and s==14):
+         y= "prime & sum of digits is 14"
+    elif (flag == 1 and s==14):
+        y= " not prime & sum of digits is 14"
+    elif(flag==0 and s!=14):
+        y= " prime & sum of digits is not 14"
+    else:
+        y="not prime & sum of digits is not 14 "
+    
+    print(f"Result = {y}")
+    
+if __name__ == "__main__":
+    main()
