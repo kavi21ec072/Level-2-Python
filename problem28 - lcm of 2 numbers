@@ -1,0 +1,16 @@
+def main():
+    x = int(input("Enter Number: "))
+    z = int(input("Enter Number: "))
+    
+    big =max(x,z)
+    while True:
+        if(big%x==0 and big%z==0):
+            print(big)
+            break
+        big+=1
+        
+        
+        
+   
+if __name__ == "__main__":
+    main()
