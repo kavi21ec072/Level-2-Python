@@ -4,7 +4,8 @@ def main():
     count =0
     while x>0:
         d=x%10
-        if (d in [1,4,9]):
+        r= (d) ** 0.5
+        if (r*r == d):
             count+=1
         x=x//10
     y=count
