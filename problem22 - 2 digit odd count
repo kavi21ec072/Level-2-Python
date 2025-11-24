@@ -1,0 +1,14 @@
+def main():
+    x = int(input("Enter Number: "))
+   # Your Code Here
+    count=0
+    while x>=10:
+        td=x%10
+        if(td%2 !=0):
+            count+=1
+        x=x//10
+    y=count
+        
+    print(f"Result = {y}")
+if __name__ == "__main__":
+    main()
