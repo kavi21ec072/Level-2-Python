@@ -1,0 +1,10 @@
+def main():
+    x = int(input("Enter Number: "))
+    for i in range(x,999,-1):
+        if(i%7==0 and i%9==0):
+            print(i)
+            break
+       
+   
+if __name__ == "__main__":
+    main()
